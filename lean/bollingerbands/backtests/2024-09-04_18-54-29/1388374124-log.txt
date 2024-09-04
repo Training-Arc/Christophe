@@ -1,0 +1,9 @@
+2013-10-07 00:00:00 Launching analysis for 1388374124 with LEAN Engine v2.5.0.0
+2013-10-07 00:00:00 Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2013-10-07 16:00:00 Runtime Error: Trying to dynamically access a method that does not exist throws a TypeError exception. To prevent the exception, ensure each parameter type matches those required by the 'QuantConnect.Securities.Equity.Equity'>) method. Please checkout the API documentation.
+  at on_data
+    if data.bars.get(self.symbol):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 22
+
+2013-10-07 16:00:00 Algorithm Id:(1388374124) completed in 0.48 seconds at 0k data points per second. Processing total of 16 data points.

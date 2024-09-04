@@ -1,0 +1,10 @@
+2022-12-12 00:00:00 Launching analysis for 1543334150 with LEAN Engine v2.5.0.0
+2022-12-12 00:00:00 Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2022-12-12 00:00:00 Algorithm starting warm up...
+2022-12-12 00:00:00 Runtime Error: 'SecurityPortfolioManager' object has no attribute 'StartingCash'
+  at OnEndOfAlgorithm
+    returns = self.Portfolio.TotalPortfolioValue / self.Portfolio.StartingCash - 1
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 39
+
+2022-12-12 00:00:00 Algorithm Id:(1543334150) completed in 0.43 seconds at 0k data points per second. Processing total of 1 data points.
